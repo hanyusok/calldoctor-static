@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 
 const Header = () => {
@@ -23,8 +24,14 @@ const Header = () => {
         >
             <div className="container mx-auto px-6 flex justify-between items-center">
                 <Link href="/" className="flex items-center space-x-2">
-                    <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                        <span className="text-white font-bold text-xl">+</span>
+                    <div className="relative w-10 h-10">
+                        <Image
+                            src="/logo.png"
+                            alt="Calldoc Logo"
+                            fill
+                            className="object-contain"
+                            priority
+                        />
                     </div>
                     <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
                         Calldoc
