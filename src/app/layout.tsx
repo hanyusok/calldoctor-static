@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "콜닥-마트의원",
   description: "비대면 진료 플랫폼",
+  verification: {
+    google: "Ahck15BnF0bDJ68CkioFs5WfVGAU1Tm5zYHk7iSQvj0",
+  },
 };
 
 export default function RootLayout({
