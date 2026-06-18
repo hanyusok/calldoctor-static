@@ -57,7 +57,7 @@ const Location = () => {
                   </div>
                   <div>
                     <p className="text-xs text-gray-400 font-bold uppercase tracking-wider">주차 안내</p>
-                    <p className="text-lg font-semibold text-gray-800 mt-1">롯데마트 지상/지하 주차장 무료 이용</p>
+                    <p className="text-lg font-semibold text-gray-800 mt-1">롯데마트 지상 주차장 무료 이용</p>
                   </div>
                 </div>
               </div>
@@ -81,7 +81,7 @@ const Location = () => {
                 {/* Map Action Buttons */}
                 <div className="flex flex-wrap gap-3 justify-center z-10">
                   <a
-                    href="https://map.naver.com/v5/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%95%88%EC%84%B0%EC%8B%9C%20%EA%B3%B5%EB%8F%84%EC%9D%8D%20%EC%84%9C%EB%8F%99%EB%8C%80%EB%A1%9C%204478"
+                    href="https://naver.me/xVBnATRX"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-sm px-5 py-2.5 rounded-full shadow-md transition-colors"
@@ -89,7 +89,7 @@ const Location = () => {
                     네이버 지도에서 보기
                   </a>
                   <a
-                    href="https://map.kakao.com/?q=%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%95%88%EC%84%B0%EC%8B%9C%20%EA%B3%B5%EB%8F%84%EC%9D%8D%20%EC%84%9C%EB%8F%99%EB%8C%80%EB%A1%9C%204478"
+                    href="https://kko.to/mOgkb8q1pH"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-yellow-400 hover:bg-yellow-500 text-yellow-950 font-bold text-sm px-5 py-2.5 rounded-full shadow-md transition-colors"
@@ -120,10 +120,10 @@ const Location = () => {
                         {item.day} {item.isWeekend && <span className="text-xs font-semibold px-1.5 py-0.5 bg-accent/10 rounded ml-1">주말진료</span>}
                       </span>
                       <span className={`font-semibold text-sm ${item.isClosed
-                          ? "text-red-500 bg-red-50 px-3 py-1 rounded-full font-bold"
-                          : item.isWeekend
-                            ? "text-primary font-bold"
-                            : "text-gray-600"
+                        ? "text-red-500 bg-red-50 px-3 py-1 rounded-full font-bold"
+                        : item.isWeekend
+                          ? "text-primary font-bold"
+                          : "text-gray-600"
                         }`}>
                         {item.time}
                       </span>

@@ -10,7 +10,7 @@ const features = [
     },
     {
         title: "전자 처방전 발급",
-        description: "진료 후 발급된 전자 처방전을 원하는 약국으로 전송하여 즉시 조제받을 수 있습니다.",
+        description: "진료 후 발급된 팩스 처방전을 원하는 약국으로 전송하여 즉시 조제받을 수 있습니다.",
         icon: (
             <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />

@@ -89,7 +89,7 @@ const ClinicIntro = () => {
             <div className="bg-gradient-to-br from-slate-50 to-slate-100/50 rounded-3xl p-8 border border-slate-100 flex-1 flex flex-col shadow-xl shadow-slate-100/20 relative overflow-hidden group">
               {/* Corner decorative accent */}
               <div className="absolute top-0 right-0 w-24 h-24 bg-primary/5 rounded-bl-[80px] transition-all duration-300 group-hover:scale-110"></div>
-              
+
               {/* Doctor Header info */}
               <div className="flex items-center space-x-6 mb-8">
                 {/* Avatar Placeholder */}
@@ -105,7 +105,7 @@ const ClinicIntro = () => {
                     마트의원 대표원장
                   </span>
                   <h4 className="text-2xl font-bold text-gray-900">한유석 원장</h4>
-                  <p className="text-gray-500 text-sm font-medium mt-1">가정의학과 전문의</p>
+                  <p className="text-gray-500 text-sm font-medium mt-1">전문의</p>
                 </div>
               </div>
 
@@ -124,11 +124,11 @@ const ClinicIntro = () => {
                 <ul className="space-y-3.5 text-gray-600">
                   <li className="flex items-start">
                     <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2.5 mr-3 shrink-0"></span>
-                    <span>가정의학과 전문의 자격 취득</span>
+                    <span>전문의 자격 취득</span>
                   </li>
                   <li className="flex items-start">
                     <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2.5 mr-3 shrink-0"></span>
-                    <span>대한가정의학회 평생회원</span>
+                    <span>대한의사협회 평생회원</span>
                   </li>
                   <li className="flex items-start">
                     <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2.5 mr-3 shrink-0"></span>
@@ -140,7 +140,7 @@ const ClinicIntro = () => {
                   </li>
                   <li className="flex items-start">
                     <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2.5 mr-3 shrink-0"></span>
-                    <span>콜닥(Calldoc) 비대면 진료 의료 자문위원</span>
+                    <span>콜닥(Calldoc) 비대면 진료 위원</span>
                   </li>
                 </ul>
               </div>

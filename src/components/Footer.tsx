@@ -43,7 +43,7 @@ const Footer = () => {
                         <p className="text-gray-400 mb-2">대표자: 한유석 원장</p>
                         <p className="text-gray-400 mb-2">대표번호: 031-657-8279</p>
                         <p className="text-gray-400 mb-2">주소: 경기도 안성시 공도읍 서동대로 4478, 2층</p>
-                        <p className="text-gray-400">Email: hanyusok@gmail.com</p>
+                        <p className="text-gray-400">Email: martclinic2011@gmail.com</p>
                     </div>
                 </div>
 

@@ -16,8 +16,8 @@ const Hero = () => {
                             이제 대기 없이 <span className="text-primary">똑똑하게</span> 진료 예약
                         </h1>
                         <p className="text-lg lg:text-xl text-gray-600 mb-10 max-w-2xl leading-relaxed">
-                            주말에도 정상 진료하는 마트의원(안성 롯데마트 2층)의 진료를 비대면으로도 편안하게 만나보세요. 
-                            불필요한 병원 대기 없이 전문의 상담부터 전자 처방전 발급까지 신속하게 해결해 드립니다.
+                            주말에도 정상 진료하는 마트의원(안성 롯데마트 2층)의 진료를 비대면으로도 편안하게 만나보세요.
+                            불필요한 병원 대기 없이 전문의 상담부터 팩스 처방전 발급까지 신속하게 해결해 드립니다.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
                             <Link
