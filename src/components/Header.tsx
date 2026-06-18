@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { useState, useEffect } from "react";
 
 const Header = () => {
@@ -23,28 +22,33 @@ const Header = () => {
                 }`}
         >
             <div className="container mx-auto px-6 flex justify-between items-center">
-                <Link href="/" className="flex items-center space-x-2">
-
+                <Link href="/" className="flex items-center">
                     <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
-                        Calldoc
+                        마트의원
+                    </span>
+                    <span className="text-xs text-gray-400 font-bold tracking-wider border-l border-gray-200 pl-2.5 ml-2.5 self-center hidden sm:inline-block">
+                        Calldoc 비대면 진료
                     </span>
                 </Link>
 
-                <nav className="hidden md:flex items-center space-x-8">
-                    <Link href="#features" className="text-gray-600 hover:text-primary font-medium transition-colors">
-                        서비스 소개
+                <nav className="hidden md:flex items-center space-x-7">
+                    <Link href="#clinic-intro" className="text-gray-600 hover:text-primary font-semibold text-[15px] transition-colors">
+                        의원·의료진 소개
                     </Link>
-                    <Link href="#how-it-works" className="text-gray-600 hover:text-primary font-medium transition-colors">
-                        이용방법
+                    <Link href="#how-it-works" className="text-gray-600 hover:text-primary font-semibold text-[15px] transition-colors">
+                        비대면 이용방법
                     </Link>
-                    <Link href="#faq" className="text-gray-600 hover:text-primary font-medium transition-colors">
+                    <Link href="#location" className="text-gray-600 hover:text-primary font-semibold text-[15px] transition-colors">
+                        진료시간·위치
+                    </Link>
+                    <Link href="#faq" className="text-gray-600 hover:text-primary font-semibold text-[15px] transition-colors">
                         자주 묻는 질문
                     </Link>
                     <Link
                         href="https://calldoc.co.kr"
-                        className="bg-primary hover:bg-primary-dark text-white px-6 py-2.5 rounded-full font-bold transition-all transform hover:scale-105 shadow-lg shadow-primary/30"
+                        className="bg-primary hover:bg-primary-dark text-white px-5 py-2 rounded-full font-bold text-sm transition-all transform hover:scale-105 shadow-lg shadow-primary/30"
                     >
-                        예약하기
+                        비대면 진료예약
                     </Link>
                 </nav>
 

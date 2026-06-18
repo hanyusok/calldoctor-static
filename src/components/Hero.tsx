@@ -11,26 +11,26 @@ const Hero = () => {
             <div className="container mx-auto px-6">
                 <div className="flex flex-col lg:flex-row items-center">
                     <div className="lg:w-1/2 text-center lg:text-left mb-12 lg:mb-0">
-                        <h1 className="text-4xl lg:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
-                            아플 땐 참지 말고 <br />
-                            <span className="text-primary">똑똑하게</span> 진료 예약
+                        <h1 className="text-4xl lg:text-6xl font-extrabold text-gray-900 leading-tight mb-6 animate-fade-in">
+                            안성 공도 마트의원, <br />
+                            이제 대기 없이 <span className="text-primary">똑똑하게</span> 진료 예약
                         </h1>
-                        <p className="text-lg lg:text-xl text-gray-600 mb-10 max-w-2xl">
-                            어디서든 간편하게, Calldoc으로 비대면 진료를 시작하세요.
-                            병원 방문 없이 전문의 상담부터 처방전 발급까지 한 번에 해결됩니다.
+                        <p className="text-lg lg:text-xl text-gray-600 mb-10 max-w-2xl leading-relaxed">
+                            주말에도 정상 진료하는 마트의원(안성 롯데마트 2층)의 진료를 비대면으로도 편안하게 만나보세요. 
+                            불필요한 병원 대기 없이 전문의 상담부터 전자 처방전 발급까지 신속하게 해결해 드립니다.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
                             <Link
                                 href="https://calldoc.co.kr"
                                 className="bg-primary hover:bg-primary-dark text-white px-10 py-4 rounded-full text-lg font-bold transition-all transform hover:scale-105 shadow-xl shadow-primary/30 text-center"
                             >
-                                비대면 진료 시작하기
+                                비대면 진료 예약하기
                             </Link>
                             <Link
-                                href="#features"
+                                href="#clinic-intro"
                                 className="bg-white border-2 border-gray-100 hover:border-primary text-gray-700 hover:text-primary px-10 py-4 rounded-full text-lg font-bold transition-all text-center"
                             >
-                                서비스 둘러보기
+                                의원 안내 둘러보기
                             </Link>
                         </div>
 

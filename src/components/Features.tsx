@@ -18,8 +18,8 @@ const features = [
         ),
     },
     {
-        title: "엄선된 의료진",
-        description: "Calldoc이 검증한 믿을 수 있는 병원과 숙련된 전문의들로부터 안심하고 진료받으세요.",
+        title: "신뢰할 수 있는 전문의",
+        description: "마트의원의 풍부한 임상 경험을 가진 한유석 대표원장이 직접 책임 진료와 처방을 진행합니다.",
         icon: (
             <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -44,10 +44,10 @@ const Features = () => {
                 <div className="text-center max-w-3xl mx-auto mb-16">
                     <h2 className="text-primary font-bold tracking-wider uppercase text-sm mb-3">Core Benefits</h2>
                     <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
-                        왜 비대면 진료는 <span className="text-primary italic">Calldoc</span> 일까요?
+                        왜 마트의원 <span className="text-primary italic">비대면 진료</span>일까요?
                     </h3>
                     <p className="text-gray-600 text-lg">
-                        환자의 편의를 최우선으로 생각하는 Calldoc만의 혁신적인 기능을 경험해보세요.
+                        환자의 건강과 편의를 최우선으로 생각하는 마트의원과 콜닥의 혁신 서비스를 경험해 보세요.
                     </p>
                 </div>
 
