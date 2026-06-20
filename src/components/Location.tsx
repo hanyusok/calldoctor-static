@@ -136,7 +136,7 @@ const Location = () => {
               <div className="bg-slate-50 rounded-2xl p-5 border border-slate-100 text-xs text-gray-500 space-y-2">
                 <p className="flex items-start">
                   <span className="text-primary mr-1.5 font-bold">•</span>
-                  <span><strong>점심시간</strong>은 오후 1시부터 2시까지 (13:00 ~ 14:00) 입니다.</span>
+                  <span><strong>점심시간</strong>은 오후 12시부터 1시 30분까지 (12:00 ~ 13:30) 입니다.</span>
                 </p>
                 <p className="flex items-start">
                   <span className="text-primary mr-1.5 font-bold">•</span>
